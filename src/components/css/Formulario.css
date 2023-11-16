@@ -1,0 +1,28 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    /* Ajusta el margen según sea necesario */
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    /* Color de fondo para las celdas del encabezado */
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* Color de fondo para las filas pares del cuerpo de la tabla */
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e0e0e0;
+    /* Color de fondo al pasar el ratón sobre una fila */
+}

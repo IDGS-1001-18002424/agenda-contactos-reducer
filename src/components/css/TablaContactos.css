@@ -1,0 +1,26 @@
+/* TablaContactos.css */
+
+.tabla-contactos {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.tabla-contactos th,
+.tabla-contactos td {
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-contactos th {
+    background-color: #333;
+    color: white;
+}
+
+.tabla-contactos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-contactos tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
